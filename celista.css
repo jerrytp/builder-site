@@ -1,0 +1,172 @@
+.header {
+  position: relative;
+  text-align: center;
+}
+.header-image {
+  width: 100%;
+  height: 100vh;
+  border-radius: 30px;
+}
+.celista {
+  position: absolute;
+  top: 15%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  font-size: 8vh;
+  font-family: "Cinzel", serif;
+  font-style: italic;
+  color: white;
+  opacity: 0.8;
+}
+.dreams {
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: rgb(5, 194, 252);
+  font-size: xx-large;
+}
+.span {
+  font-size: 6vh;
+  color: rgb(243, 208, 10);
+}
+.home {
+  position: absolute;
+  top: 6%;
+  left: 0%;
+  width: 8%;
+}
+.mission {
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #1e5b78;
+  margin-left: 20vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-family: "Poppins", sans-seri;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: rgb(221, 216, 216);
+  border-color: rgb(221, 216, 216);
+  transition: transform 0.2s;
+}
+.mission:hover {
+  transform: scale(1.1);
+}
+.paragraph {
+  font-size: 25px;
+  margin-top: 0vh;
+}
+.why {
+  background-color: #5cdb95;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 90%;
+  transition: transform 0.2s;
+}
+.why:hover {
+  transform: scale(1.1);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  font-size: 10vh;
+  color: whitesmoke;
+  font-weight: 300;
+  padding-left: 5%;
+}
+.benefit {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+}
+.point {
+  font-size: 50px;
+  color: rgb(1, 7, 12);
+  font-weight: 500;
+  font-family: "Poppins", sans-seri;
+}
+.pointdiv {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.imagediv {
+  width: 50%;
+}
+.image {
+  width: 100%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: beige;
+  height: 100%;
+}
+.project {
+  color: #1e5b78;
+  font-size: 60px;
+  font-family: "Poppins", sans-seri;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 80px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 150px;
+  margin-top: 30px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 10px;
+}
+.projectimage {
+  transition: transform 0.2s;
+}
+.projectimage:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.footer {
+  color: #1e5b78;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  border: solid;
+  border-radius: 20px;
+  background-color: blanchedalmond;
+  width: 80%;
+  margin-left: 120px;
+}
